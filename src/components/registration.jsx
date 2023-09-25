@@ -8,7 +8,7 @@ function Registerform() {
     return <>
         <div className={styles.wrapperout}>
             <div className={styles.wrapper}>
-                <div className={styles.regFormLft}><img className="img-fluid form-img" src="./src/assets/images/register.png" /></div>
+                <div className={styles.regFormLft}><img className="img-fluid form-img" src="./images/register.png" /></div>
                 <div className={styles.regFormRht}>
                     <div className={styles.formHeading}><h3>Registration</h3></div>
                     <div className={styles.formWrapper}>

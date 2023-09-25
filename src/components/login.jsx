@@ -8,7 +8,7 @@ function Loginform() {
     return <>
         <div className={styles.wrapperout}>
             <div className={styles.wrapper}>
-                <div className={styles.regFormLft}><img className="img-fluid form-img" src="./src/assets/images/login.png" /></div>
+                <div className={styles.regFormLft}><img className="img-fluid form-img" src="./images/login.png" /></div>
                 <div className={styles.regFormRht}>
                     <div className={styles.formHeading}><h3>Login</h3></div>
                     <div className={styles.formWrapper}>
