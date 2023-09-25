@@ -47,6 +47,9 @@ a.form-etc-link:hover{
 color: var(--primary-color);
 text-decoration: none;
 }
+textarea{
+    resize: none;
+}
 
 @media screen and (max-width:767px) {
 .form-img {
