@@ -1,0 +1,22 @@
+:root{
+    --primary-color:#026857;
+    --secondary-color:#1b9b85;
+    --third-color:#27debf;
+    --dark-color:#000;
+    --light-color:#fff;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page-wrapper{
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    background-color: #fff;
+  }
+
+  .site-logo{
+    max-width: 50px;
+  }

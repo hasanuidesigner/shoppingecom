@@ -1,0 +1,57 @@
+.form-control {
+    border: none;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.input-group-text {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.input-group {
+    border-bottom: var(--dark-color) solid 1px;
+    color: var(--primary-color);
+}
+
+.input-group:focus-within {
+    border-bottom: var(--secondary-color) solid 1px;
+}
+
+.input-group:focus-within .input-group-text {
+    color: var(--secondary-color);
+}
+
+.input-group:focus-within .form-control {
+    color: var(--primary-color);
+}
+
+.btn{
+    background-color: var(--secondary-color);
+    border-color: var(--primary-color);
+    color: var(--light-color);
+}
+.btn:active,.btn:focus,.btn:hover,:not(.btn-check)+.btn:active{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+a.form-etc-link:link,a.form-etc-link:visited{
+color: var(--secondary-color);
+text-decoration: none;
+}
+a.form-etc-link:hover{
+color: var(--primary-color);
+text-decoration: none;
+}
+
+@media screen and (max-width:767px) {
+.form-img {
+    max-width: 50%;
+    border-radius: 60%; 
+    padding: 3px;
+}
+}

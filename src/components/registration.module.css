@@ -1,0 +1,66 @@
+.wrapperout {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 800px;
+    padding: 25px 25px 25px 5px;
+    background-color: var(--light-color);
+    height: auto;
+    border-radius: 15px;
+    -webkit-box-shadow: 3px 3px 10px 5px #E6E6E6;
+    box-shadow: 3px 3px 10px 5px #E6E6E6;
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.regFormLft {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: var(--primary-color) solid 1px;
+}
+
+.regFormRht {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 25px;
+}
+
+.formHeading {
+    color: var(--secondary-color);
+    font-size: 1.2em;
+    text-align: left;
+    border-bottom: var(--secondary-color) solid 2px;
+}
+
+.formWrapper {
+    text-align: left;
+}
+
+@media screen and (max-width:767px) {
+    .wrapper {
+        align-items: start;
+    }
+
+    .regFormLft {
+        flex: auto;
+        max-width: initial;
+        border-right: none;
+    }
+
+    .regFormRht {
+        flex: auto;
+        max-width: initial;
+    }
+}

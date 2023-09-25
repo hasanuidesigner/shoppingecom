@@ -1,0 +1,32 @@
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar .navbar-collapse {
+    flex-grow: initial;
+}
+
+a.navbar-brand:link,
+a.navbar-brand:visited {
+    color: var(--light-color);
+}
+
+.navbar-nav .nav-link {
+    color: var(--light-color);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--third-color);
+} 
+
+.navbar-toggler{
+    box-shadow: none;
+    border: none;
+    padding: 0px;
+    outline: none;
+    line-height: normal;
+    color: var(--light-color);
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
