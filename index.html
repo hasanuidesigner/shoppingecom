@@ -5,6 +5,20 @@
     <link rel="icon" type="image/ico" href="/shoppingecom/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping cart</title>
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
     <script type="module" crossorigin src="/shoppingecom/assets/index-a91b480a.js"></script>
     <link rel="stylesheet" href="/shoppingecom/assets/index-c4ae2d4e.css">
   </head>
