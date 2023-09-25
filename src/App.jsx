@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <div className="page-wrapper">
-        <BrowserRouter basename='/shoppingecom/'>
+        <BrowserRouter basename={import.meta.env.DEV ? '/' : '/shoppingecom/'}>
           <Navbar />
           <Routes>
             <Route path="/home" element={<Home />}></Route>
