@@ -1,5 +1,5 @@
 import React from "react";
-import { PersonFill, Key, PencilSquare } from 'react-bootstrap-icons';
+import { PersonFill, KeyFill, PencilSquare } from 'react-bootstrap-icons';
 import styles from "./login.module.css"
 import './form.css'
 import { NavLink } from "react-router-dom";
@@ -23,14 +23,14 @@ function Loginform() {
                             <div className="col-12 mt-3">
                                 <label className="visually-hidden" htmlFor="inlineFormInputGroupPassword">Password</label>
                                 <div className="input-group">
-                                    <div className="input-group-text"><Key/></div>
+                                    <div className="input-group-text"><KeyFill/></div>
                                     <input type="password" className="form-control" id="inlineFormInputGroupPassword" placeholder="Password" required />
                                 </div>
                             </div> 
                             <div className="mt-3 mb-1 row d-flex">
                                 <div className="col-auto">
-                                <button type="submit" className="btn btn-primary btn-sm me-1">Clear</button>
-                                <button type="submit" className="btn btn-primary btn-sm">Login</button>
+                                <button type="button" className="btn btn-danger btn-sm me-1">Cancel</button>
+                                <button type="submit" className="btn btn-primary btn-sm btn-custom">Login</button>
                                 </div>
                             </div>
                             <div className="mt-2"> <span> 

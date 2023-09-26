@@ -74,7 +74,7 @@
     {
       "id": 5,
       "title": "Huawei P30",
-      "description": "Huawei\u2019s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
       "price": 499,
       "discountPercentage": 10.58,
       "rating": 4.09,
@@ -146,7 +146,7 @@
     {
       "id": 9,
       "title": "Infinix INBOOK",
-      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey \u2013 1 Year Warranty",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
       "price": 1099,
       "discountPercentage": 11.83,
       "rating": 4.54,
@@ -239,7 +239,7 @@
     {
       "id": 14,
       "title": "Non-Alcoholic Concentrated Perfume Oil",
-      "description": "Original Al Munakh\u00AE by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
+      "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
       "price": 120,
       "discountPercentage": 15.6,
       "rating": 4.21,
@@ -276,7 +276,7 @@
     {
       "id": 16,
       "title": "Hyaluronic Acid Serum",
-      "description": "L'Or\u00C3\u00A9al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
+      "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
       "price": 19,
       "discountPercentage": 13.31,
       "rating": 4.83,
@@ -441,7 +441,7 @@
     {
       "id": 25,
       "title": "Gulab Powder 50 Gram",
-      "description": "Dry Rose Flower Powder Gulab Powder 50 Gram \u2022 Treats Wounds",
+      "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
       "price": 70,
       "discountPercentage": 13.58,
       "rating": 4.87,
@@ -555,28 +555,69 @@
   ],
   "users": [
     {
-      "id": 1,
-      "username": "admin1",
+      "username": "admin",
       "firstname": "Hasan Ali",
-      "address1": "230/1",
-      "address2": "big strret main",
+      "email": "test@test.in",
+      "address1": "123. new street",
+      "address2": "mdu, india",
       "phone": "98745670",
-      "email": "hasan@test.in",
-      "paswword": "admin1",
-      "gender":"male",
-      "priviledge": "admin"
+      "password": "123456",
+      "confirmpassword": "123456",
+      "gender": "male",
+      "privilege": "admin",
+      "id": 1
     },
     {
-      "id": 2,
       "username": "user1",
       "firstname": "Siva Kumar",
-      "address1": "25",
-      "address2": "New cross street",
-      "phone": "879456",
-      "email": "siva@test.in",
-      "paswword": "user1",
-      "gender":"male",
-      "priviledge": "user"
+      "email": "test@test.in",
+      "address1": "25 New cross street",
+      "address2": "mdu, india",
+      "phone": "54789",
+      "password": "123456",
+      "confirmpassword": "123456",
+      "gender": "male",
+      "privilege": "user",
+      "id": 2
+    },
+    {
+      "username": "user2",
+      "firstname": "Melony",
+      "email": "melony@test.in",
+      "address1": "456, north cross street",
+      "address2": "Madurai, India",
+      "phone": "987564",
+      "password": "123456",
+      "confirmpassword": "123456",
+      "gender": "female",
+      "privilege": "user",
+      "id": 3
+    },
+    {
+      "username": "user3",
+      "firstname": "Siva Murugan",
+      "email": "test@test.in",
+      "address1": "123, VV street",
+      "address2": "Anna nagar",
+      "phone": "85215",
+      "password": "123456",
+      "confirmpassword": "123456",
+      "gender": "male",
+      "privilege": "user",
+      "id": 4
+    },
+    {
+      "username": "user4",
+      "firstname": "Gopi Krishnan",
+      "email": "test@test.in",
+      "address1": "123, New treet",
+      "address2": "Mdu, india",
+      "phone": "123678",
+      "password": "123456",
+      "confirmpassword": "123456",
+      "gender": "male",
+      "privilege": "user",
+      "id": 5
     }
   ]
 }

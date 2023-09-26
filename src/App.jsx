@@ -27,7 +27,7 @@ function App() {
         <BrowserRouter basename='/shoppingecom/'>
           <Navbar />
           <Routes>
-            <Route path="/home" element={<Home />}></Route>
+            <Route path="/" element={<Home />}></Route>
             <Route path="/products" element={<Products />}></Route>
             <Route path="/lgoin" element={<Loginform />}></Route>
             <Route path="/register" element={<Registerform />}></Route>
